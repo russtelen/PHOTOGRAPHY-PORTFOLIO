@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light navbar-custom">
         <button
           className="navbar-toggler"
           type="button"
