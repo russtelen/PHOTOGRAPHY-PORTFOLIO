@@ -25,7 +25,7 @@ const Nav = () => {
               </NavLink>
             </li>
             <li className="nav-item px-4">
-              <NavLink to="/projects" className="nav-link">
+              <NavLink to="/filmdiaries" className="nav-link">
                 Film Diaries
               </NavLink>
             </li>
