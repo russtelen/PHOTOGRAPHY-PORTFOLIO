@@ -9,15 +9,6 @@ hr {
   border: 0;
 }
 
-/* Navbar */
-/* .navbar-custom {
-  background-color: rgb(73, 73, 73);
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: white;
-} */
-
 /* Landing */
 .landing {
   height: calc(100vh - 56px);
