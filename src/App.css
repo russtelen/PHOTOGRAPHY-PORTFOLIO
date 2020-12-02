@@ -34,3 +34,58 @@ hr {
   background-color: white;
   padding: 4%;
 }
+
+/* About */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 56px);
+}
+
+.about-img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-desc {
+  font-size: 10px;
+}
+
+.background-frame {
+  height: 80vh;
+  width: 90vw;
+  background-color: rgb(181, 181, 181);
+  -webkit-box-shadow: 9px 18px 24px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 18px 24px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 18px 24px -10px rgba(0, 0, 0, 0.75);
+}
+
+/* breakpoints */
+@media only screen and (min-width: 768px) {
+  .about-desc {
+    font-size: 1.2rem;
+  }
+
+  .background-frame {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .about-img {
+    height: 100%;
+    padding-bottom: 2%;
+  }
+
+  .background-frame {
+    margin-bottom: 10%;
+  }
+
+  .about-desc {
+    display: flex;
+    align-items: center;
+  }
+}
