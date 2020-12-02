@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Landing from "./Landing/Landing";
-import Nav from "./General/Nav";
+import Nav from "./components/General/Nav";
+import Landing from "./components/Landing/Landing";
 
 function App() {
   return (

@@ -18,7 +18,7 @@ const Nav = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto">
+          <ul className="navbar-nav ml-auto justify-content-center">
             <li className="nav-item px-4">
               <NavLink to="/" exact className="nav-link">
                 Home
