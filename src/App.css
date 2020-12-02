@@ -57,7 +57,7 @@ hr {
 .background-frame {
   height: 80vh;
   width: 90vw;
-  background-color: rgb(181, 181, 181);
+  background-color: rgb(216, 216, 216);
   -webkit-box-shadow: 9px 18px 24px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 9px 18px 24px -10px rgba(0, 0, 0, 0.75);
   box-shadow: 9px 18px 24px -10px rgba(0, 0, 0, 0.75);
