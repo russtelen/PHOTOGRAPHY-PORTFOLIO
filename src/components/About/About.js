@@ -7,6 +7,7 @@ const About = () => {
         <img
           className="about-img px-4 pt-4 col-lg-6"
           src="https://russtelen-photoportfolio.s3.ca-central-1.amazonaws.com/aboutme.jpg"
+          alt="film diaries"
         />
         <p className="about-desc mt-2 container col-lg-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit

@@ -8,6 +8,7 @@ const FilmDiaries = () => {
         <img
           className="film-img"
           src="https://russtelen-photoportfolio.s3.ca-central-1.amazonaws.com/filmdiaries.jpg"
+          alt="film diaries"
         />
       </div>
     </div>
