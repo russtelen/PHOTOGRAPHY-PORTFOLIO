@@ -61,6 +61,9 @@ hr {
   -webkit-box-shadow: 9px 18px 24px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 9px 18px 24px -10px rgba(0, 0, 0, 0.75);
   box-shadow: 9px 18px 24px -10px rgba(0, 0, 0, 0.75);
+  /* fix safari bug */
+  display: flex;
+  align-items: flex-start;
 }
 
 /* Film Diaries */
@@ -87,6 +90,11 @@ hr {
 
   .about-desc {
     display: flex;
+    align-items: center;
+  }
+
+  /* fix safari bug */
+  .background-frame {
     align-items: center;
   }
 }
