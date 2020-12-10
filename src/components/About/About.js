@@ -10,7 +10,9 @@ const About = () => {
             src="https://russtelen-photoportfolio.s3.ca-central-1.amazonaws.com/aboutme.jpg"
             alt="film diaries"
           />
-          <p className="about-title">About Me</p>
+          <p className="about-title animate__animated animate__fadeInDown">
+            About Me
+          </p>
         </div>
 
         <p className="about-desc mt-2 container col-lg-6 animate__animated animate__pulse">
