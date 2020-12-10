@@ -4,11 +4,15 @@ const About = () => {
   return (
     <div className="about">
       <div className="background-frame row my-5">
-        <img
-          className="about-img px-4 pt-4 col-lg-6"
-          src="https://russtelen-photoportfolio.s3.ca-central-1.amazonaws.com/aboutme.jpg"
-          alt="film diaries"
-        />
+        <div className="about-container x-4 pt-4 col-lg-6">
+          <img
+            className="about-img"
+            src="https://russtelen-photoportfolio.s3.ca-central-1.amazonaws.com/aboutme.jpg"
+            alt="film diaries"
+          />
+          <p className="about-title">About Me</p>
+        </div>
+
         <p className="about-desc mt-2 container col-lg-6 animate__animated animate__pulse">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit
           nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus
