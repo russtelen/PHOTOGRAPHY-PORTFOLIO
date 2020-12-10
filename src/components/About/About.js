@@ -9,7 +9,7 @@ const About = () => {
           src="https://russtelen-photoportfolio.s3.ca-central-1.amazonaws.com/aboutme.jpg"
           alt="film diaries"
         />
-        <p className="about-desc mt-2 container col-lg-6">
+        <p className="about-desc mt-2 container col-lg-6 animate__animated animate__pulse">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit
           nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus
           pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla
