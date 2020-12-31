@@ -4,6 +4,7 @@ import Landing from "./components/Landing/Landing";
 import Nav from "./components/General/Nav";
 import About from "./components/About/About";
 import FilmDiaries from "./components/FilmDiaries/FilmDiaries";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         </Route>
         <Route exact path="/filmdiaries">
           <FilmDiaries />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
         </Route>
       </Router>
     </div>
