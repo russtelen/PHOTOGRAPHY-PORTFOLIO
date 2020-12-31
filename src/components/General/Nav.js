@@ -34,11 +34,11 @@ const Nav = () => {
                 About Me
               </NavLink>
             </li>
-            {/* <li className="nav-item px-4">
+            <li className="nav-item px-4">
               <NavLink to="/contact" className="nav-link">
                 Contact
               </NavLink>
-            </li> */}
+            </li>
           </ul>
         </div>
       </nav>
