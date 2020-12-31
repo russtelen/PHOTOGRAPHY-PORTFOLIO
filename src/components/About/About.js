@@ -16,11 +16,11 @@ const About = () => {
         </div>
 
         <p className="about-desc mt-2 container col-lg-6 animate__animated animate__pulse">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit
-          nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus
-          pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla
-          aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur
-          id nec massa.
+          Hi my name's Russ! Film photographer based in Vancouver, BC. I have
+          recently come to the conclusion that I am addicted to taking photos...
+          for which there is no known cure, other than to take more. Follow me
+          through this journey as I capture the world one click at a time. A
+          journey where you relive a moment in the past.
         </p>
       </div>
     </div>
