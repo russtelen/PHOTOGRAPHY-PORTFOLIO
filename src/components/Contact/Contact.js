@@ -33,7 +33,10 @@ const Contact = () => {
                 >
                   <AiOutlineInstagram size={45} />
                 </a>
-                <a className="col-2 ">
+                <a
+                  className="col-2 "
+                  href="https://www.instagram.com/russtelen/"
+                >
                   <AiOutlineFacebook size={45} />
                 </a>
                 <a className="col-2 " href="https://www.russtelen.me/">
