@@ -13,7 +13,7 @@ const Contact = () => {
         Get In Touch
       </h1>
 
-      <div className="container my-5">
+      <div className="container my-5 animate__animated animate__zoomIn">
         <div className="row">
           <div className="container col-lg-6 mb-5">
             <div>
