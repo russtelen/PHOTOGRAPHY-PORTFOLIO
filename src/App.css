@@ -84,6 +84,16 @@ hr {
   width: 100%;
 }
 
+/* Contact */
+.form-control {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: rgb(172, 172, 172);
+}
+.form-control:focus {
+  border-color: rgb(0, 0, 0);
+}
+
 /* breakpoints */
 @media only screen and (min-width: 768px) {
   .about-desc {
