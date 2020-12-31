@@ -2,8 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact Page Works</h1>
+    <div className="Contact">
+      <h1 className="text-center animate__animated animate__bounceIn">
+        Get In Touch
+      </h1>
     </div>
   );
 };
